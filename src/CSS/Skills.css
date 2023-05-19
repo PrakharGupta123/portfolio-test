@@ -1,0 +1,11 @@
+.skill-main{
+    padding: 0px 10vw 0px 10vw;
+
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-main div ul{
+list-style-type: none;
+line-height: 3rem;
+}

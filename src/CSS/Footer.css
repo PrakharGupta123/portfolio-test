@@ -1,0 +1,10 @@
+.footer{
+    background-color: black;
+    padding: 5vh 10vw;
+    display: flex;
+justify-content: center;
+gap:2vw ;
+}
+.footer img{
+    max-width: 3vw;
+}
