@@ -1,18 +1,53 @@
 .about-main{
     padding: 0px 10vw 0px 10vw;
 
-    margin-top: 30vh;
+    margin-top: 20vh;
     display: flex;
 }
 .about-main div:nth-child(1){
     width: 200%;
-    font-size: 1.2rem;
+    font-size:1rem;
 }
 .about-main div:nth-child(2){
-font-size: 4rem;
-font-family: Sfprodisplay;
-font-weight: 600;
+font-size: 4.5rem;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+line-height: 5rem;
 }
-.test{
-    color: antiquewhite;
+
+@media (max-width:920px) {
+
+    .about-main{
+        margin-top: 7vh;
+
+    padding: 0px 2vw 0px 2vw;
+}
+.about-main div:nth-child(1){
+    width: 200%;
+
+    font-size:1.5rem;
+}
+.about-main div:nth-child(2){
+    font-size: 3rem;
+    line-height: 3rem;
+    }
+    
+}
+
+@media (max-width:420px) {
+    .about-main{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .about-main div:nth-child(1){
+        /* width: 200%; */
+        font-size:1rem;
+    }
+    .about-main div:nth-child(2){
+        font-size: 1.7rem;
+        line-height: 2rem;
+        }
+        
+    
 }

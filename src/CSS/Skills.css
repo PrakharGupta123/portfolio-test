@@ -1,6 +1,6 @@
 .skill-main{
     padding: 0px 10vw 0px 10vw;
-
+    text-align: center;
     margin-top: 20vh;
     display: flex;
     justify-content: space-evenly;
@@ -8,4 +8,12 @@
 .skill-main div ul{
 list-style-type: none;
 line-height: 3rem;
+}
+
+@media (max-width:920px) {
+    .skill-main{
+       
+        margin-top: 10vh;
+      
+    }
 }

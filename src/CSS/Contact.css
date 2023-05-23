@@ -1,7 +1,5 @@
 .contact{
     padding: 20vh 10vw 0px 10vw;
-
-    position: relative;
     background-color: black;
 }
 .contact-main{
@@ -9,22 +7,25 @@
     position: relative;
     justify-content: space-between;
 }
-.contact-main img{
+.request-main img{
     max-width:300px;
     max-height:300px;
 
     position: absolute;
-transform: translateX(55vw);
+transform: translateX(30vw);
 }
-.contact-main div:nth-child(2){
-transform: translateX(-100px);
-}
+
 .contact-main div{
     color: white;
+}
+.request-main{
+    display: flex;
 }
 .Request{
     font-size: 11rem;
     line-height: 9rem;
+    transform: translateX(-100px);
+
 }
 .contact hr{
     margin: 15vh auto;
@@ -35,7 +36,6 @@ transform: translateX(-100px);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* gap:5%; */
 
 }
 .footer-list{
@@ -65,3 +65,36 @@ font-weight: lighter;
     line-height: 7vh;
 }
 
+@media (max-width:920px) {
+    .contact{
+        padding: 10vh 2vw 0px 2vw;
+    }
+    .Request{
+        font-size: 4rem;
+        line-height: 4rem;
+        transform: translateX(-400px);
+
+    } 
+    .contact-main img{
+        max-width:200px;
+        max-height:200px;
+    
+        position: absolute;
+    /* transform: translateX(60vw); */
+    }
+    .contact hr{
+        margin: 5vh auto;
+        width: 50vw;
+    
+    }
+    .footer-lists div{
+    line-height:4vh ;
+    }
+}
+@media (max-width:830px) {
+    .footer-list div:nth-child(1){
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: lighter;
+        }
+}
